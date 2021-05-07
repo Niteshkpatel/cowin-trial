@@ -1,0 +1,11 @@
+---
+application:
+  name: "cowin-trial"
+  project: "trial"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-cowin-trial"
+  routes:
+  - application_name: "cowin-trial"
+    paths:
+    - "/*"
